@@ -1,0 +1,40 @@
+(?<!(\w|\d|<|>|-))((!trans!) (from (!female!) ((into|to) (!male!))?|(from (!female!) )?(into|to) (!male!)))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) (from (!male!) ((into|to) (!female!))?|(from (!male!) )?(into|to) (!female!)))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) ((!female!) ((into|to) (!male!))?|((!female!) )?(into|to) (!male!)))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) ((!male!) ((into|to) (!female!))?|((!male!) )?(into|to) (!female!)))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))(((!trans!) )?(!Tboth!)( (!trans!))?)(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[0]!>\2</G>
+(?<!(\w|\d|<|>|-))(((!trans!) )?(!FMT!)( (!trans!))?)(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))(((!trans!) )?(!MFT!)( (!trans!))?)(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!|gender) (!FMT_un!)|(!FMT_un!) (!trans!|gender))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!|gender) (!MFT_un!)|(!MFT_un!) (!trans!|gender))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans_un!|gender) (!FMT_un!)|(!FMT_un!) (!trans_un!|gender))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans_un!|gender) (!MFT_un!)|(!MFT_un!) (!trans_un!|gender))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) (!male!)|(!male!) (!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) (!female!)|(!female!) (!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans_un!) (!male!)|(!male!) (!trans_un!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans_un!) (!female!)|(!female!) (!trans_un!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!)/(!male!)|(!male!)/(!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!)/(!female!)|(!female!)/(!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))(!all_gender!)(?!(\w|\d|<|>)),<G=All>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) (!both!)|(!both!) (!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[0]!>\2</G>
+(?<!(\w|\d|<|>|-))((!trans!) (!un_both!)|(!both!) (!trans!))(?!(\w|\d|<|>)),<G=!cates1[1]! !cates2[0]!>\2</G>
+(?<!(\w|\d|<|>|-))((!bio!) (!both!)|(!both!) (!bio!))(?!(\w|\d|<|>)),<G=!cates1[0]! !cates2[0]!>\2</G>
+(?<!(\w|\d|<|>|-))((!bio!|gender|sex) (!male!)|(!male!) (!bio!|gender|sex))(?!(\w|\d|<|>)),<G=!cates1[0]! !cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))((!bio!|gender|sex) (!female!)|(!female!) (!bio!|gender|sex))(?!(\w|\d|<|>)),<G=!cates1[0]! !cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))(!bio!)(?!(\w|\d|<|>)),<G=!cates1[0]!>\2</G>
+(?<!(\w|\d|<|>|-))(!trans!)(?!(\w|\d|<|>)),<G=!cates1[1]!>\2</G>
+(?<!(\w|\d|<|>|-))(!both!)(?!(\w|\d|<|>)),<G=!cates2[0]!>\2</G>
+(?<!(\w|\d|<|>|-))(!male!)(?!(\w|\d|<|>)),<G=!cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))(!female!)(?!(\w|\d|<|>)),<G=!cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))(!male!)(?!(\w|\d|<|>)),<G=!cates2[1]!>\2</G>
+(?<!(\w|\d|<|>|-))(!female!)(?!(\w|\d|<|>)),<G=!cates2[2]!>\2</G>
+(?<!(\w|\d|<|>|-))(!neg!) <G=([^<>]+)>([^<>]+)</G>,<G=Not \3>\2 \3</G>
+"(?<!(\w|\d|<|>|-))(!neg!) (\w+ ){0,3}<G=([^<>]+)>([^<>]+)</G>",<G=Not \4>\2 \4</G>
+<G=Not [^<>]+>([^<>]+)</G> [^.<>?!]*(who|which|that|having|with|of|after|before),\1 \2
+(?<!(\w|\d|<|>|-))(!partner!|with|with a) <G=[^<>]+>([^<>]+)</G>,\2 \3
+<G=[^<>]+>([^<>]+)</G> (!partner!condom|condoms),\1 \2
+<G=[^<>]+>([^<>]+)</G>(\@|\#|\%|\&|\*|\+|\-|\=|\_|\/|\\),\1\2
+<G=[^<>]+>(f|m)</G>,\1
+(<G=[^<>]+>[^<>]+)<G=[^<>]+>,\1
+</G>([^<>]+</G>),\1
+"(?<!(\w|\d|<|>|-))((sex with) (\w+ ){0,5})<G=Transgender([^<>]*)>([^<>]+)</G>(?!(\w|\d|<|>))",\2\6

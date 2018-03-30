@@ -1,0 +1,17 @@
+!all_gender!,"lgbt|any sex/gender, including transgender|any gender/sex, including transgender|men and women, transgender|men or women, transgender|male, female or transgender|male, female, or transgender|male, female, transgender|lesbian, gay, bi-sexual or transgender"
+!male!,m|males|male|man|men|msm|msw|msm/w|msw/m|ymsm|gay|gays
+!female!,f|females|female|woman|women|wsw|wsm|wsm/w|wsw/m|lesbian|lesbian|les
+!both!,m/f|m&f|both genders|two genders|two-gender|all genders|all-gender|male and female|male&female|male & female|genderqueer|men and women|men & women|men&women|man and woman
+!un_both!,person|individual|persons|individuals
+!bio!,biologically|biological|birth sex
+!trans!,transgender|transsexual|transsexuals|transsexualism|change sex|changed sex|sex changed|change gender|changed gender|gender changed|Self-identified|sr surgery performed|sr surgery|sex reassignment surgery|sex reassignment|transgendered
+!trans_un!,trans|tg
+!Tboth!,female-to-male and male-to-female|male-to-female and female-to-male|mft and fmt|fmt and mft|male to female and female to male|female to male and male to female|m to f and f to m|f to m and m to f|transgender men and women|transgender male and female
+!MFT!,"female from male|male at birth and currently identify as female|male-to-female transgender women|male to female transgender women|men transitioning into women|male sex at birth and now self-identifies as a woman|feel female, not male|male at birth, who now identify as female|'male' at birth but who do not identify as male|male sex at birth but does not currently identify as male"
+!MFT_un!,male-to-female|mtf|male-female|male - female|male to female|m to f
+!FMT!,"male from female|female at birth and currently identify as male|female-to-male transgender men|female to male transgender men|women transitioning into men|female sex at birth and now self-identifies as a man|feel male, not female|female at birth, who now identify as male|'female' at birth but who do not identify as female|female sex at birth but does not currently identify as female"
+!FMT_un!,female-to-male|ftm|female-male|female - male|female to male|f to m
+!sex!,hemeosexual|Heterosexual
+!mult_c!,couple|couples|man+woman|male+female|male&female|male & female|husband and wife
+!partner!,partner|partners|sexual partner|sexual partners|wife|husband
+!neg!,no|not|except|besides|rather|rather than|neither|not identify as|not identified as
